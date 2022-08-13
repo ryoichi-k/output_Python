@@ -41,6 +41,10 @@ withを使用することによりwith内の処理が終了するたびにf.clos
 #偶数のときTrueを返すlambda（ラムダ式、無名関数）下記の場合、filter()の第一引数は無名関数、第二引数は1である
  for i in filter(lambda x: x % 2 == 0, l):
     print(i)
+    
+#結果をリストに変換したい場合はlist()を使う。
+print(list(filter(lambda x: x % 2 == 0, l)))
+# [-2, 0, 2]
 ```
 
 ## lambda式（超絶便利）
