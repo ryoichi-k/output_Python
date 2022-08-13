@@ -34,3 +34,11 @@ withを使用することによりwith内の処理が終了するたびにf.clos
  print('あ', 'い', 'う', sep=',', end=' end\n')
  あ,い,う end
 ```
+
+## filter()
+リストやタプルなどから条件を満たす要素を抽出したり削除したりできる。
+```
+#偶数のときTrueを返すlambda（ラムダ式、無名関数）
+ for i in filter(lambda x: x % 2 == 0, l):
+    print(i)
+```
