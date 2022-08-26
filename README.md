@@ -56,3 +56,53 @@ print(list(filter(lambda x: x % 2 == 0, l)))
     print(i)
 ```
 
+## del
+インデックス・スライスで位置・範囲を指定して削除
+```python
+l = list(range(10))
+print(l)
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+del l[2:5]
+print(l)
+# [0, 1, 5, 6, 7, 8, 9]
+
+del l[-1]
+print(l)
+# [1, 2, 3, 4, 5, 6, 7, 8]
+```
+## in
+文字列の中に任意の文字列が含まれているか判定・確認するにはin演算子を使う。含まれているとTrue、含まれていないとFalseを返す。
+
+```python
+print('I' in s and 'Sam' in s)
+
+if "aiueo" in tmp:
+
+```
+## join
+文字列メソッドjoin()を使うと、文字列のリストを一つの文字列に連結できる。
+```python
+l = ['aaa', 'bbb', 'ccc']
+
+s = ''.join(l)
+print(s)
+# aaabbbccc
+```
+
+改行の\nでjoinすると、縦に並ぶようにできる。
+```python
+s = '\n'.join(l)
+```
+
+## split()
+文字列を決まった区切り文字で分割して配列にできる。
+```python
+str.split(',')
+
+```
+
+
+
+
+
