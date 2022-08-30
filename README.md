@@ -148,3 +148,11 @@ for i in ex_list:
 
 ```
 
+## dict.items()
+繰り返し文で使用できる。キーとバリューの両方を一度に取り出せる優れもの。
+
+```python
+for k,v in master_dict.items():
+ print(k,v)
+```
+
