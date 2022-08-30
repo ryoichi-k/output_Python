@@ -98,7 +98,10 @@ s = '\n'.join(l)
 ## split()
 文字列を決まった区切り文字で分割して配列にできる。
 ```python
+str = "a,i,u,eo"
 str.split(',')
+
+# ["a", "i", "u", "eo"]
 
 ```
 
