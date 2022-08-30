@@ -155,4 +155,13 @@ for i in ex_list:
 for k,v in master_dict.items():
  print(k,v)
 ```
+## リストの重複を排除する方法 set()
 
+```python
+
+# 再びリスト化できる
+list(set(a_list))
+
+# ソートも可能
+sorted(list(set(a_list)))
+```
