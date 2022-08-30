@@ -127,4 +127,21 @@ print(text.rstrip(">"))
 ```
 
 
+## 動的にリストの中身の数字を変えられる方法
+下記の例の場合、ex_listの{}の中の数字は動的に変わる。
+それを１つずつ取り出したい。→　i.format(number)とし、numberの部分に入る数字が{}の中に順次当てはめられていく。
+
+```python
+ex_list = [
+ "<number:{}> aiueoaiueo",
+ "<number:{}> aiueoaiueo",
+ "<ID:{}> aiueoaiueo",
+ "<number:{}> aiueoaiueo",
+ ]
+ 
+for i in ex_list:
+ if i.format(number) in master_list:
+   ###########
+
+```
 
